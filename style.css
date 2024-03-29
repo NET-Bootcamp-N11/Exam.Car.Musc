@@ -313,7 +313,6 @@ a {
 }
 
 .material {
-	/* justify-content: start; */
 	align-items: flex-start;
 	justify-content: space-around;
 }
@@ -370,4 +369,86 @@ a {
 
 .material-content__text--wrapper .slider-left {
 	left: 0;
+}
+
+/* ---------------- */
+
+.usluga-header {
+	text-align: center;
+}
+
+.usluga-header h2 {
+	font-size: 60px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+.usluga-header .circle {
+	justify-content: center;
+}
+
+.usluga-btn button {
+	padding: 15px 20px;
+	font-size: 25px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	border: none;
+	outline: none;
+	
+}
+
+.usluga-btn button:first-child {
+	background-color: crimson;
+}
+
+.usluga-card {
+	width: 337px;
+	text-align: center;
+	padding: 55px 48px;
+	/* text-transform: uppercase; */
+	border: 2px #898989b2 solid;
+}
+
+.usluga-card:nth-child(1) {
+	padding-top: 72px;
+}
+
+.usluga-card:nth-child(3) {
+	padding-top: 78px;
+}
+
+.usluga-card h2 {
+	margin: 20px 0;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.usluga-card > p {
+	margin: 0 0 40px 0;
+}
+
+.usluga-card .btn-wrapper {
+	position: relative;
+}
+
+.usluga-card .btn-wrapper span {
+	position: absolute;
+	bottom: -8px;
+	left: -56px;
+	width: 60px;
+	height: 40px;
+	display: inline-block;
+	background-color: crimson;
+	z-index: 1;
+}
+
+.usluga-card .btn-wrapper p {
+	position: relative;
+	z-index: 2;
+}
+
+.usluga-list {
+	display: flex;
+	justify-content: space-between;
 }

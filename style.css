@@ -592,7 +592,7 @@ textarea {
 .site-footer {
 	padding: 20px;
 	background: #141414;
-	border: #898989b2 solid 2px;
+	border-top: #898989b2 solid 2px;
 }
 
 .footer {

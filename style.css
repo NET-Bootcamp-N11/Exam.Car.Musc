@@ -342,6 +342,7 @@ a {
 
 .material-logo__wrapper {
 	margin-bottom: 21px;
+	text-transform: uppercase;
 }
 
 .material-logo__wrapper img {
@@ -373,6 +374,10 @@ a {
 
 /* ---------------- */
 
+.usluga-section {
+	margin-bottom: 150px;
+}
+
 .usluga-header {
 	text-align: center;
 }
@@ -388,6 +393,14 @@ a {
 	justify-content: center;
 }
 
+.usluga-btn {
+	margin-bottom: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+}
+
 .usluga-btn button {
 	padding: 15px 20px;
 	font-size: 25px;
@@ -395,11 +408,14 @@ a {
 	letter-spacing: 3px;
 	border: none;
 	outline: none;
-	
 }
 
 .usluga-btn button:first-child {
 	background-color: crimson;
+}
+
+.usluga-btn button:last-child {
+	background-color: transparent;
 }
 
 .usluga-card {
@@ -451,4 +467,31 @@ a {
 .usluga-list {
 	display: flex;
 	justify-content: space-between;
+}
+
+/* ---------------- */
+
+.axem {
+	flex-direction: row-reverse;
+}
+
+/* ----------------- */
+
+.raboti-section {
+	padding-bottom: 300px;
+}
+
+.raboti-img__wrapper div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.raboti-img__wrapper div:nth-child(2) {
+	flex-direction: row-reverse;
+}
+
+.raboti-img__wrapper img {
+	width: 235px;
 }

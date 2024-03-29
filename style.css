@@ -478,7 +478,7 @@ a {
 /* ----------------- */
 
 .raboti-section {
-	padding-bottom: 300px;
+	padding-bottom: 150px;
 }
 
 .raboti-img__wrapper div {
@@ -494,4 +494,120 @@ a {
 
 .raboti-img__wrapper img {
 	width: 235px;
+}
+
+/*  ------------- */
+
+.form-btn__wrapper {
+	border: none;
+	padding: 0 !important;
+	display: flex;
+	justify-content: space-between;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 90px;
+}
+
+.form-input__wrapper {
+	margin-bottom: 30px;
+}
+
+.form-area__wrapper {
+	width: 825px;
+}
+
+.form-input__wrapper input {
+	width: 400px;
+	padding: 15px 30px;
+	border: 2px #898989b2 solid;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+
+.form-input__wrapper input:first-child {
+	margin-right: 20px;
+}
+
+.form-area__wrapper {
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+textarea {
+	border: 2px #898989b2 solid;
+	width: 700px;
+	height: 200px;
+	padding: 15px 30px;
+	background-color: transparent;
+}
+
+.form-logo__wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.form-logo__wrapper a {
+	border: 2px #898989b2 solid;
+	padding: 13px;
+}
+
+.form-btn__wrapper {
+	width: 100%;
+}
+
+.form-btn__wrapper .btn-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-btn__wrapper .btn-wrapper span {
+	top: 3px;
+	left: 0;
+	height: 70px;
+	width: 74px;
+}
+
+.form-btn__wrapper .btn-wrapper p {
+	font-size: 35px;
+	vertical-align: middle;
+	line-height: 20px;
+	margin-left: 25px;
+}
+
+.locat,
+.tel,
+.email {
+	gap: 20px;
+}
+
+/* ----------------------- */
+
+.site-footer {
+	padding: 20px;
+	background: #141414;
+	border: #898989b2 solid 2px;
+}
+
+.footer {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer ul {
+	gap: 40px;
+}
+
+.footer ul a {
+	font-weight: 300;
+}
+
+.footer p {
+	color: #898989b2;
 }

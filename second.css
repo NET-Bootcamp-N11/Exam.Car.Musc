@@ -20,7 +20,8 @@
 
 .seni span {
 	width: 47px;
-	top: -9px;
+	top: 1px;
+	height: 50px;
 }
 
 .round-text h2 {

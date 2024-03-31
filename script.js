@@ -1,9 +1,16 @@
-let footer = document.querySelector(".site-footer");
-let clone = footer.cloneNode(footer);
-console.dir(clone.hasChildNodes(footer));
+let headerLink = document.querySelector(".salom");
+console.log(headerLink);
 
-console.log(window.history);
+// headerLink.addEventListener("click", function () {
+// console.log("Hello");
+// });
 
-window.moveTo = function () {
-	alert("Hello! I am an alert box!!");
-};
+// let footer = document.querySelector(".site-footer");
+// let clone = footer.cloneNode(footer);
+// console.dir(clone.hasChildNodes(footer));
+
+// console.log(window.history);
+
+// window.moveTo = function () {
+// 	alert("Hello! I am an alert box!!");
+// };

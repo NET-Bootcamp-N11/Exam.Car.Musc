@@ -3,12 +3,16 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="second.css" />
 		<title>Car.Musc</title>
 	</head>
 	<body>
-		<header class="site-header">
+		<header class="site-header" data-aos="fade-right">
 			<div class="container">
 				<div class="header flex">
 					<ul class="flex header-list">
@@ -42,7 +46,7 @@
 		<main class="site-main">
 			<section class="hero-section">
 				<div class="container">
-					<div class="hero">
+					<div class="hero" data-aos="fade-left">
 						<h1 class="hero-title">
 							Оклейка автомобиля <br />
 							защитными пленками
@@ -67,7 +71,7 @@
 			<section class="material-section">
 				<div class="container">
 					<div class="material flex">
-						<div class="round-text">
+						<div class="round-text" data-aos="fade-right">
 							<h2>
 								Полиуретановая пленка единственная надежная
 								защита автомобиля от всех внешних воздействий
@@ -89,7 +93,7 @@
 								<img src="./assets/logo/logo2.svg" alt="" />
 							</div>
 						</div>
-						<div class="material-content">
+						<div class="material-content" data-aos="fade-left">
 							<img src="./assets/img/4.png" />
 							<div class="material-content__text--wrapper flex">
 								<img
@@ -115,18 +119,21 @@
 				<div class="container">
 					<div class="usluga">
 						<div class="usluga-header">
-							<h2>
+							<h2 data-aos="zoom-in">
 								Преимущества защитной <br />
 								антигравийной пленки
 							</h2>
-							<div class="circle">
+							<div class="circle" data-aos="zoom-in">
 								<span></span>
 								<span></span>
 								<span></span>
 								<span></span>
 							</div>
 							<div class="usluga-list">
-								<div class="usluga-card">
+								<div
+									class="usluga-card"
+									data-aos="zoom-in-down"
+								>
 									<img
 										src="./assets/logo/hand.svg"
 										alt="icon"
@@ -138,7 +145,7 @@
 										pellentesque vulputate sit. Ut feugiat.
 									</p>
 								</div>
-								<div class="usluga-card">
+								<div class="usluga-card" data-aos="zoom-in-up">
 									<img
 										src="./assets/logo/checkcar.svg"
 										alt="icon"
@@ -150,7 +157,10 @@
 										pellentesque vulputate sit. Ut feugiat.
 									</p>
 								</div>
-								<div class="usluga-card">
+								<div
+									class="usluga-card"
+									data-aos="zoom-in-down"
+								>
 									<img
 										src="./assets/logo/iron.svg"
 										alt="icon"
@@ -162,7 +172,7 @@
 										pellentesque vulputate sit. Ut feugiat.
 									</p>
 								</div>
-								<div class="usluga-card">
+								<div class="usluga-card" data-aos="zoom-in-up">
 									<img
 										src="./assets/logo/car.svg"
 										alt="icon"
@@ -183,7 +193,7 @@
 			<section class="avto-section">
 				<div class="container">
 					<div class="avto">
-						<div class="usluga-header">
+						<div class="usluga-header" data-aos="flip-right">
 							<h2>
 								Преимущества защитной <br />
 								антигравийной пленки
@@ -197,7 +207,10 @@
 						</div>
 						<table class="avto-table">
 							<thead>
-								<tr class="avto-table__head">
+								<tr
+									class="avto-table__head"
+									data-aos="fade-right"
+								>
 									<th>авто / Материал</th>
 									<th>Пленка Spectroll</th>
 									<th>Пленка Hexis</th>
@@ -206,7 +219,10 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr class="avto-table__body">
+								<tr
+									class="avto-table__body"
+									data-aos="fade-left"
+								>
 									<td>
 										1 класс <br />
 										(Mini cooper, Fiat 500)
@@ -216,7 +232,10 @@
 									<td>69 000 ₽</td>
 									<td>72 000 ₽</td>
 								</tr>
-								<tr class="avto-table__body">
+								<tr
+									class="avto-table__body"
+									data-aos="fade-right"
+								>
 									<td>
 										2 класс <br />
 										(BMW 3, Mercedes)
@@ -226,7 +245,10 @@
 									<td>69 000 ₽</td>
 									<td>72 000 ₽</td>
 								</tr>
-								<tr class="avto-table__body">
+								<tr
+									class="avto-table__body"
+									data-aos="fade-left"
+								>
 									<td>
 										4 класс <br />
 										(BMW 7, Mercedes S)
@@ -236,7 +258,10 @@
 									<td>69 000 ₽</td>
 									<td>72 000 ₽</td>
 								</tr>
-								<tr class="avto-table__body">
+								<tr
+									class="avto-table__body"
+									data-aos="fade-right"
+								>
 									<td>
 										5 класс <br />
 										(BMW X3,X4, Mercedes)
@@ -253,7 +278,7 @@
 			</section>
 			<section class="raboti-section">
 				<div class="container">
-					<div class="usluga-header">
+					<div class="usluga-header" data-aos="zoom-in">
 						<h2>Наши услуги</h2>
 						<div class="circle">
 							<span></span>
@@ -265,34 +290,106 @@
 				</div>
 				<div class="raboti-img__wrapper">
 					<div>
-						<img src="./assets/img/6.png" alt="" />
-						<img src="./assets/img/7.png" alt="" />
-						<img src="./assets/img/8.png" alt="" />
-						<img src="./assets/img/9.png" alt="" />
-						<img src="./assets/img/10.png" alt="" />
-						<img src="./assets/img/11.png" alt="" />
+						<img
+							data-aos="flip-right"
+							src="./assets/img/6.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/7.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/8.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/9.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/10.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/11.png"
+							alt=""
+						/>
 					</div>
 					<div>
-						<img src="./assets/img/12.png" alt="" />
-						<img src="./assets/img/13.png" alt="" />
-						<img src="./assets/img/14.png" alt="" />
-						<img src="./assets/img/15.png" alt="" />
-						<img src="./assets/img/16.png" alt="" />
-						<img src="./assets/img/17.png" alt="" />
+						<img
+							data-aos="flip-right"
+							src="./assets/img/12.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/13.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/14.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/15.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/16.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/17.png"
+							alt=""
+						/>
 					</div>
 					<div>
-						<img src="./assets/img/6.png" alt="" />
-						<img src="./assets/img/7.png" alt="" />
-						<img src="./assets/img/8.png" alt="" />
-						<img src="./assets/img/9.png" alt="" />
-						<img src="./assets/img/10.png" alt="" />
-						<img src="./assets/img/11.png" alt="" />
+						<img
+							data-aos="flip-right"
+							src="./assets/img/6.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/7.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/8.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/9.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/10.png"
+							alt=""
+						/>
+						<img
+							data-aos="flip-right"
+							src="./assets/img/11.png"
+							alt=""
+						/>
 					</div>
 				</div>
 			</section>
 			<section class="form-section">
 				<div class="container">
-					<div class="usluga-header">
+					<div class="usluga-header" data-aos="fade-down">
 						<h2>ответим на любой вопрос</h2>
 						<div class="circle">
 							<span></span>
@@ -303,19 +400,31 @@
 					</div>
 					<form name="contact" method="post" data-netlify="true">
 						<div class="form-input__wrapper">
-							<input type="text" placeholder="Имя" />
-							<input type="tel" placeholder="телефон" />
+							<input
+								data-aos="fade-down-right"
+								type="text"
+								placeholder="Имя"
+							/>
+							<input
+								data-aos="fade-down-left"
+								type="tel"
+								placeholder="телефон"
+							/>
 						</div>
 						<div>
 							<div class="flex form-area__wrapper">
 								<textarea
+									data-aos="fade-right"
 									name=""
 									id=""
 									cols="30"
 									rows="10"
 									placeholder="Вопрос по дизайну, тюнингу и др."
 								></textarea>
-								<div class="form-logo__wrapper">
+								<div
+									class="form-logo__wrapper"
+									data-aos="fade-left"
+								>
 									<a href="#">
 										<img
 											src="./assets/logo/telegram.svg"
@@ -337,11 +446,15 @@
 								</div>
 							</div>
 							<div class="usluga-card form-btn__wrapper">
-								<a href="#" class="btn-wrapper">
+								<a
+									href="#"
+									class="btn-wrapper"
+									data-aos="fade-up-right"
+								>
 									<span></span>
 									<p>отправить</p>
 								</a>
-								<div>
+								<div data-aos="fade-up-left">
 									<div
 										class="flex locat"
 										style="margin-bottom: 20px"
@@ -394,5 +507,10 @@
 				</div>
 			</div>
 		</footer>
+
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>

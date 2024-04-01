@@ -29,7 +29,9 @@
 							>
 						</li>
 						<li class="header-item">
-							<a class="header-link" href="#car-galery">Галерея работ</a>
+							<a class="header-link" href="#car-galery"
+								>Галерея работ</a
+							>
 						</li>
 					</ul>
 					<div class="bar flex">
@@ -271,8 +273,24 @@
 								</p>
 							</div>
 						</div>
-						<div class="material-content" data-aos="flip-left">
-							<img src="./assets/img/4.png" />
+						<div
+							class="material-content swiper"
+							data-aos="flip-left"
+						>
+							<div class="swiper-wrapper">
+								<img
+									class="swiper-slide"
+									src="./assets/img/4.png"
+								/>
+								<img
+									class="swiper-slide"
+									src="./assets/img/5.png"
+								/>
+								<img
+									class="swiper-slide"
+									src="./assets/img/4.png"
+								/>
+							</div>
 							<div class="material-content__text--wrapper flex">
 								<img
 									class="slider-left"
@@ -723,6 +741,32 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init();
+		</script>
+		<script type="module">
+						import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+						<!-- const swiper = new Swiper(...) -->
+						const swiper = new Swiper('.swiper', {
+			  // Optional parameters
+			  direction: 'vertical',
+			  loop: true,
+
+			  // If we need pagination
+			  pagination: {
+			    el: '.swiper-pagination',
+			  },
+
+			  // Navigation arrows
+			  navigation: {
+			    nextEl: '.swiper-button-next',
+			    prevEl: '.swiper-button-prev',
+			  },
+
+			  // And if we need scrollbar
+			  scrollbar: {
+			    el: '.swiper-scrollbar',
+			  },
+			});
 		</script>
 		<!-- <script src="./script.js"></script> -->
 	</body>

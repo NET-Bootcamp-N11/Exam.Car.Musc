@@ -4,6 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link
 			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
 			rel="stylesheet"
 		/>
@@ -22,17 +26,19 @@
 							>
 						</li>
 						<li class="header-item">
-							<a class="header-link" href="#"
+							<a class="header-link" href="#car"
 								>Оклейка автомобилей</a
 							>
 						</li>
 						<li class="header-item">
-							<a class="header-link" href="#"
+							<a class="header-link" href="#avto"
 								>Детейлинг автомобилей</a
 							>
 						</li>
 						<li class="header-item">
-							<a class="header-link" href="#">Галерея работ</a>
+							<a class="header-link" href="#galary"
+								>Галерея работ</a
+							>
 						</li>
 					</ul>
 					<div class="bar flex">
@@ -68,7 +74,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="material-section">
+			<section class="material-section" id="car">
 				<div class="container">
 					<div class="material flex">
 						<div class="round-text" data-aos="fade-right">
@@ -115,7 +121,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="usluga-section">
+			<section class="usluga-section" id="avto">
 				<div class="container">
 					<div class="usluga">
 						<div class="usluga-header">
@@ -276,7 +282,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="raboti-section">
+			<section class="raboti-section" id="galary">
 				<div class="container">
 					<div class="usluga-header" data-aos="zoom-in">
 						<h2>Наши услуги</h2>
@@ -425,19 +431,28 @@
 									class="form-logo__wrapper"
 									data-aos="fade-left"
 								>
-									<a href="#" class="form-logo__wrapper--item">
+									<a
+										href="#"
+										class="form-logo__wrapper--item"
+									>
 										<img
 											src="./assets/logo/telegram.svg"
 											alt=""
 										/>
 									</a>
-									<a href="#" class="form-logo__wrapper--item">
+									<a
+										href="#"
+										class="form-logo__wrapper--item"
+									>
 										<img
 											src="./assets/logo/youtube.svg"
 											alt=""
 										/>
 									</a>
-									<a href="#" class="form-logo__wrapper--item">
+									<a
+										href="#"
+										class="form-logo__wrapper--item"
+									>
 										<img
 											src="./assets/logo/wkm.svg"
 											alt=""
@@ -508,6 +523,7 @@
 			</div>
 		</footer>
 
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init();

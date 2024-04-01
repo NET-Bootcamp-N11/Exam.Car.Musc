@@ -29,7 +29,12 @@
 							>
 						</li>
 						<li class="header-item">
-							<a class="header-link" href="#car-galery">Галерея работ</a>
+							<a class="header-link" href="#car-galery"
+								>Галерея работ</a
+							>
+						</li>
+						<li class="header-item">
+							<a class="header-link" href="#contact">Контакт</a>
 						</li>
 					</ul>
 					<div class="bar flex">
@@ -174,11 +179,11 @@
 				</div>
 			</section>
 			<section class="slider-section" id="avto">
-				<img class="slider-left" src="./assets/logo/left.svg" />
+				<img class="slider-left cursor" src="./assets/logo/left.svg" />
 				<div class="container">
 					<div class="slider flex">
 						<div class="slider-card" data-aos="flip-left">
-							<img src="./assets/img/1.png" />
+							<img src="./assets/img/1.png" class="cursor" />
 							<span></span>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur
@@ -187,7 +192,7 @@
 							</p>
 						</div>
 						<div class="slider-card" data-aos="flip-left">
-							<img src="./assets/img/2.png" />
+							<img src="./assets/img/2.png" class="cursor" />
 							<span></span>
 							<p>
 								Lorem ipsum dolor sit amet, consectetur
@@ -206,7 +211,10 @@
 						</div>
 					</div>
 				</div>
-				<img class="slider-right" src="./assets/logo/right.svg" />
+				<img
+					class="slider-right cursor"
+					src="./assets/logo/right.svg"
+				/>
 			</section>
 			<section class="material-section">
 				<div class="container">
@@ -271,11 +279,19 @@
 								</p>
 							</div>
 						</div>
-						<div class="material-content" data-aos="flip-left">
-							<img src="./assets/img/4.png" />
+						<div
+							class="material-content swiper"
+							data-aos="flip-left"
+						>
+							<div class="swiper-wrapper">
+								<img
+									class="swiper-slide"
+									src="./assets/img/4.png"
+								/>
+							</div>
 							<div class="material-content__text--wrapper flex">
 								<img
-									class="slider-left"
+									class="slider-left cursor"
 									src="./assets/logo/left.svg"
 								/>
 								<p>
@@ -285,7 +301,7 @@
 									Consectetur lectus.
 								</p>
 								<img
-									class="slider-right"
+									class="slider-right cursor"
 									src="./assets/logo/right.svg"
 								/>
 							</div>
@@ -461,7 +477,7 @@
 							<img src="./assets/img/5.png" />
 							<div class="material-content__text--wrapper flex">
 								<img
-									class="slider-left"
+									class="slider-left cursor"
 									src="./assets/logo/left.svg"
 								/>
 								<p>
@@ -471,7 +487,7 @@
 									Consectetur lectus.
 								</p>
 								<img
-									class="slider-right"
+									class="slider-right cursor"
 									src="./assets/logo/right.svg"
 								/>
 							</div>
@@ -590,7 +606,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="form-section">
+			<section class="form-section" id="contact">
 				<div class="container">
 					<div class="usluga-header" data-aos="fade-down">
 						<h2>ответим на любой вопрос</h2>
@@ -711,10 +727,11 @@
 						in. Vitae magna at tempus commodo.
 					</p>
 					<ul class="flex">
-						<li><a href="">Главная</a></li>
-						<li><a href="">Оклейка автомобилей</a></li>
-						<li><a href="">Детейлинг автомобилей</a></li>
-						<li><a href="">Галерея работ</a></li>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#avto">Оклейка автомобилей</a></li>
+						<li><a href="#car-detel">Детейлинг автомобилей</a></li>
+						<li><a href="#car-galery">Галерея работ</a></li>
+						<li><a href="#contact">Контакт</a></li>
 					</ul>
 				</div>
 			</div>
@@ -723,6 +740,32 @@
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script>
 			AOS.init();
+		</script>
+		<script type="module">
+						import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs'
+
+						<!-- const swiper = new Swiper(...) -->
+						const swiper = new Swiper('.swiper', {
+			  // Optional parameters
+			  direction: 'vertical',
+			  loop: true,
+
+			  // If we need pagination
+			  pagination: {
+			    el: '.swiper-pagination',
+			  },
+
+			  // Navigation arrows
+			  navigation: {
+			    nextEl: '.swiper-button-next',
+			    prevEl: '.swiper-button-prev',
+			  },
+
+			  // And if we need scrollbar
+			  scrollbar: {
+			    el: '.swiper-scrollbar',
+			  },
+			});
 		</script>
 		<!-- <script src="./script.js"></script> -->
 	</body>
